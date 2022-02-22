@@ -101,18 +101,12 @@ class Room
 
     public function setNiveau(string $value)
     {
-
-        if (
-            $value == self::EASY_LEVEL
-            || $value == self::NORMAL_LEVEL
-            || $value == self::DIFFICULT_LEVEL
-        ) {
+        if ($value == self::EASY_LEVEL || $value == self::NORMAL_LEVEL || $value == self::DIFFICULT_LEVEL) {
             $this->niveau = htmlentities($value);
         } else {
             throw new Exception('Niveau inconnu');
         }
     }
-
 
     public function __toString()
     {
@@ -147,13 +141,14 @@ class Room
     {
     }
 
-    public function getNbEnigma(): int {
-      if ($this->niveau == Room::EASY_LEVEL) {
-        return 5;
-       } elseif ($this->niveau == Room::NORMAL_LEVEL) {
-        return 10;
-       } elseif ($this->niveau == Room::DIFFICULT_LEVEL) {
-        return 20;
-       }
+    public function getNbEnigma(): int
+    {
+        if ($this->niveau == Room::EASY_LEVEL) {
+            return 5;
+        } elseif ($this->niveau == Room::NORMAL_LEVEL) {
+            return 10;
+        } elseif ($this->niveau == Room::DIFFICULT_LEVEL) {
+            return 20;
+        }
     }
 }
