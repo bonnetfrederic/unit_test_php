@@ -1,0 +1,22 @@
+{
+    "name": "campus/unit_test",
+    "description": "Package to learn how to create unit tests with PHP Unit\u001b[D\u001b[D\u001b[D\u001b[\u001b[3~\u001b[C\u001b[C\u001b[\u001b[C\u001b[C\u001b[C\u001b[CUnit",
+    "type": "project",
+    "require-dev": {
+        "fakerphp/faker": "^1.19"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Campus\\UnitTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Frédéric Bonnet",
+            "email": "frederic.bonnet.fr@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
