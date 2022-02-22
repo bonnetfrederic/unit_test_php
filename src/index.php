@@ -7,7 +7,7 @@ use Campus\UnitTest\Models\Room ;
 
 require_once '../vendor/autoload.php';
 
-// phpinfo();die;
+// // phpinfo();die;
 
 $faker = Faker::create();
 $room = new Room(
@@ -17,3 +17,11 @@ $room = new Room(
 
 echo $room;
 echo 'toto';
+
+// // Code pour redimensionner et afficher une image stockée dans un dossier 
+// $image = imagecreatefromjpeg('images/img.jpg');
+// $new_image = imagescale($image, 150);
+// ob_start();
+// imagepng($new_image);
+// $rawImageBytes = ob_get_clean();
+// echo "<img src='data:image/jpeg;base64," .base64_encode($rawImageBytes) . "' />";
