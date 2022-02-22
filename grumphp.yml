@@ -1,6 +1,7 @@
 grumphp:
     tasks:
         git_commit_message:
+            enforce_capitalized_subject: false
             type_scope_conventions:
                 types:
                     - build
