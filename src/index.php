@@ -18,7 +18,7 @@ $room = new Room(
 echo $room;
 echo 'toto';
 
-// // Code pour redimensionner et afficher une image stockée dans un dossier 
+// // Code pour redimensionner et afficher une image stockée dans un dossier
 // $image = imagecreatefromjpeg('images/img.jpg');
 // $new_image = imagescale($image, 150);
 // ob_start();

@@ -1,1 +1,1 @@
-{"version":1,"defects":[],"times":{"RoomTest::testCreateRoom":0.191,"RoomTest::testHowManyEnigma":0.024,"RoomTest::testPushAndPop":0.001,"Campus\\RoomTest::testCreateRoom":0.018,"Campus\\RoomTest::testHowManyEnigma":0,"Campus\\RoomTest::testPushAndPop":0.001}}
+{"version":1,"defects":[],"times":{"RoomTest::testCreateRoom":0.191,"RoomTest::testHowManyEnigma":0.024,"RoomTest::testPushAndPop":0.001,"Campus\\RoomTest::testCreateRoom":0.017,"Campus\\RoomTest::testHowManyEnigma":0,"Campus\\RoomTest::testPushAndPop":0.001}}
